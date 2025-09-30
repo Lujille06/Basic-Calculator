@@ -6,7 +6,7 @@ class Main {
         char operation, loop;
         
         do{
-            System.out.println("-------------------------");
+        System.out.println("-------------------------");
         System.out.println("    Simple Calculator");
         System.out.println("-------------------------");
         System.out.print("Enter the first number: ");
