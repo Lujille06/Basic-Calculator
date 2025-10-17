@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class MethodOOP {
+class Main {
     public static double sum(double a, double b){
         return(a+b);
     }
