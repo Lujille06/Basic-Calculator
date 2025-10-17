@@ -6,16 +6,16 @@ class Main {
         char operation, loop;
         
         do{
-        System.out.println("-------------------------");
-        System.out.println("    Simple Calculator");
-        System.out.println("-------------------------");
-        System.out.print("Enter the first number: ");
-        firstNum = scanner.nextDouble();
-        System.out.print("Enter the second number: ");
-        secondNum = scanner.nextDouble();
-        System.out.print("Choose an operation [+, -, *, /]: ");
-        operation = scanner.next().charAt(0);
-        System.out.println("-------------------------");
+            System.out.println("-------------------------");
+            System.out.println("    Simple Calculator");
+            System.out.println("-------------------------");
+            System.out.print("Enter the first number: ");
+            firstNum = scanner.nextDouble();
+            System.out.print("Enter the second number: ");
+            secondNum = scanner.nextDouble();
+            System.out.print("Choose an operation [+, -, *, /]: ");
+            operation = scanner.next().charAt(0);
+            System.out.println("-------------------------");
             
         switch (operation){
             case '+': 
@@ -35,12 +35,12 @@ class Main {
                 System.out.printf("Quotient: %.2f\n", quotient);
                 break;
         }
-        System.out.println("-------------------------");
-        System.out.print("Do you want to continue [y/n]; ");
-        loop = scanner.next().charAt(0);
-        if(loop == 'y' || loop == 'Y'){
-            System.out.println();
-        }
+            System.out.println("-------------------------");
+            System.out.print("Do you want to continue [y/n]; ");
+            loop = scanner.next().charAt(0);
+            if(loop == 'y' || loop == 'Y'){
+                System.out.println();
+            }
         } while (loop != 'n' && loop != 'N');
         
         scanner.close();
